@@ -1,0 +1,26 @@
+{
+    "segment_data": {
+        "branch" : {
+            "before": " ",
+            "args": {
+                "status_colors": true
+            }
+        }
+    },
+	"segments": {
+		"right": [
+            {
+                "name":"branch",
+                "function":"powerline.segments.common.vcs.branch" ,
+                "priority": 50
+            },
+			{
+				"function": "powerline.segments.common.time.date",
+				"args": {
+					"format": "%Y/%m/%d %H:%M",
+					"istime": true
+				}
+			}
+        ]
+	}
+}
