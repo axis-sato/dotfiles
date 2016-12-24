@@ -12,6 +12,7 @@ fi
 
 # Customize to your needs...
 
+PATH=/usr/local/bin:$PATH
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
