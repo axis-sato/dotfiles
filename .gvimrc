@@ -1,4 +1,4 @@
-set guifont=Ricty-Regular:h17
+set guifont=Ricty-Regula:h15,RictyDiminished-Regular:h15
 
 if has('gui_macvim')
   set transparency=5 "透明度を指定
