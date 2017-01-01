@@ -1,17 +1,12 @@
 {
-    "segment_data": {
-        "branch" : {
-            "before": " ",
-            "args": {
-                "status_colors": true
-            }
-        }
-    },
 	"segments": {
 		"right": [
             {
-                "name":"branch",
-                "function":"powerline.segments.common.vcs.branch" ,
+                "function":"powerline.segments.common.vcs.branch",
+                "before": " ",
+                "args": {
+                    "status_colors": true
+                },
                 "priority": 50
             },
 			{
