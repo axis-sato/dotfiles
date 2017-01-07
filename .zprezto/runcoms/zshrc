@@ -22,8 +22,16 @@ if [ -d "$PYENV_ROOT" ]; then
 fi
 
 
+# rbenv
 export RBENV_ROOT="$HOME/.rbenv"
 if [ -d "$RBENV_ROOT" ]; then
     export PATH=$RBENV_ROOT/bin:$PATH
     eval "$(rbenv init -)"
+fi
+
+
+# nodebrew
+export NODEBREW_ROOT="$HOME/.nodebrew"
+if [ -d "$NODEBREW_ROOT" ]; then
+    export PATH=$NODEBREW_ROOT/current/bin:$PATH
 fi
