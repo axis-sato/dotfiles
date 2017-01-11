@@ -16,10 +16,13 @@ PATH=/usr/local/bin:$PATH
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
-if [ -d "$PYENV_ROOT" ]; then
-    export PATH=$PYENV_ROOT/bin:$PATH
-    eval "$(pyenv init -)"
-fi
+# pyenvとanacondaのactivate衝突問題を回避するため、
+# pyenvのinitを行わない。
+export PATH=$PYENV_ROOT/versions/miniconda3-4.1.11/bin:$PATH
+#if [ -d "$PYENV_ROOT" ]; then
+#    export PATH=$PYENV_ROOT/bin:$PATH
+#    eval "$(pyenv init -)"
+#fi
 
 
 # rbenv
