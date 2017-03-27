@@ -38,3 +38,9 @@ export NODEBREW_ROOT="$HOME/.nodebrew"
 if [ -d "$NODEBREW_ROOT" ]; then
     export PATH=$NODEBREW_ROOT/current/bin:$PATH
 fi
+
+
+# brew-file
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+    source $(brew --prefix)/etc/brew-wrap
+fi
