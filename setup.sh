@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # link dotfiles
 for file in `\find . -maxdepth 1 -name "\.*" ! -path . ! -name ".git*"` ; do
