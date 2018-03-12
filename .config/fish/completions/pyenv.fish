@@ -1,0 +1,1 @@
+/Users/sato/.config/fisherman/pyenv/completions/pyenv.fish

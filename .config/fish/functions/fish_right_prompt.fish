@@ -1,0 +1,1 @@
+/Users/sato/.config/fisherman/ideal/functions/fish_right_prompt.fish
