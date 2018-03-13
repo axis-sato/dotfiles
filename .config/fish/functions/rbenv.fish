@@ -1,0 +1,1 @@
+/Users/sato/.config/fisherman/rbenv/functions/rbenv.fish
