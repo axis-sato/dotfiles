@@ -1,1 +1,3 @@
 .vim/dein/*
+.config/fish/fishd*
+.config/fisherman
