@@ -1,1 +1,0 @@
-/Users/sato/.config/fisherman/pyenv/functions/pyenv.fish

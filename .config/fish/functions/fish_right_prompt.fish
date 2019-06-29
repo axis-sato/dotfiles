@@ -1,1 +1,2 @@
-/Users/sato/.config/fisherman/ideal/functions/fish_right_prompt.fish
+function fish_right_prompt
+end
