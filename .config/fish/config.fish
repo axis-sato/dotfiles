@@ -1,8 +1,3 @@
-# Setup flutter
-if command -s flutter > /dev/null
-  set -x PATH (dirname (command -s flutter)) $PATH
-end
-
 # Setup swiftenv
 if command -s swiftenv > /dev/null
   set -x SWIFTENV_ROOT $HOME/.swiftenv
