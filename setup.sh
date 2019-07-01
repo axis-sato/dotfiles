@@ -8,5 +8,6 @@ for file in `\find . -maxdepth 1 -name "\.*" ! -path . ! -name ".git*" ! -name "
 done
 
 # ~/.config/fishから.config/fishへのシンボリックリンクを貼る
-ln -sf $PWD/.config/fish $HOME/.config
+mkdir -p $HOME/.config
+ln -sf $PWD/.config/fish $HOME/.config/
 echo "symbolic link $PWD/.config/fish <- $HOME/.config/ was created"
