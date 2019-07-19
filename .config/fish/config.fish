@@ -24,3 +24,9 @@ set -l asdf_fish_path /usr/local/opt/asdf/asdf.fish
 if test -f $asdf_fish_path
     source $asdf_fish_path
 end
+
+# Setup phpbrew
+set -l phpbrew_config_path $HOME/.phpbrew/phpbrew.fish
+if test -f $phpbrew_config_path
+    source $phpbrew_config_path
+end
