@@ -2,7 +2,7 @@
 set -l go_path $HOME/go
 if test -d $go_path
     set -x GOPATH $go_path
-    set -x PATH $GOPATH $PATH
+    set -x PATH $GOPATH/bin $PATH
 end
 
 # Setup flutter
