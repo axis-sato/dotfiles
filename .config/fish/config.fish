@@ -33,3 +33,8 @@ end
 
 # Setup fastlane
 set -x TESTFLIGHT_USERNAME sato_m@mediaxis.jp
+set -l fastlane_path $HOME/.fastlane/bin
+if test -d $fastlane_path
+    set -x PATH $fastlane_path $PATH
+end
+
